@@ -1,0 +1,28 @@
+{% extends "navbar.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 500px;
+            height: 350px;
+            object-fit: contain;
+            margin: 0 450px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flask page</h1>
+    <img src="/static/images/flask.png">
+    <p>Flask is a micro web framework written in Python. It is classified as a microframework because it does not 
+        require particular tools or libraries.</p>
+</body>
+</html>
+{% endblock %}
